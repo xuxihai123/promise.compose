@@ -1,0 +1,43 @@
+{
+  "name": "promise.compose",
+  "version": "1.0.0",
+  "description": "Runs an array of promises in series, each passing their results to the next promise in the array. support an initialization parameter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./*.js",
+    "lint:fix": "eslint ./*.js --fix",
+    "test": "mocha  --check-leaks --bail --exit --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxihai123/promise.compose.git"
+  },
+  "keywords": [
+    "promise",
+    "array",
+    "series",
+    "waterfall",
+    "javascript",
+    "nodejs",
+    "fun-fun-functional",
+    "pineapple"
+  ],
+  "author": {
+    "name": "Xu Xi Hai",
+    "email": "xuxihai123@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuxihai123/promise.compose/issues"
+  },
+  "homepage": "https://github.com/xuxihai123/promise.compose#readme",
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "eslint": "4.1.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {}
+}
