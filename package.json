@@ -1,7 +1,7 @@
 {
-  "name": "promise.compose",
+  "name": "promise.compose2",
   "version": "1.0.0",
-  "description": "Runs an array of promises in series, each passing their results to the next promise in the array. support an initialization parameter",
+  "description": "compose an array of promises ,return a function that chain resolve promise with an initialization parameter",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./*.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuxihai123/promise.compose.git"
+    "url": "git+https://github.com/xuxihai123/promise.compose2.git"
   },
   "keywords": [
     "promise",
     "array",
     "series",
-    "waterfall",
+    "compose",
     "javascript",
     "nodejs",
     "fun-fun-functional",
@@ -31,9 +31,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xuxihai123/promise.compose/issues"
+    "url": "https://github.com/xuxihai123/promise.compose2/issues"
   },
-  "homepage": "https://github.com/xuxihai123/promise.compose#readme",
+  "homepage": "https://github.com/xuxihai123/promise.compose2#readme",
   "devDependencies": {
     "mocha": "5.2.0",
     "eslint": "4.1.1",
